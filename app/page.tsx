@@ -19,7 +19,9 @@ export default function Home() {
 			<main>
 				<div className="min-h-screen bg-purple-400">
 					<div className="page-container overflow-hidden">
-						<h1 className="pt-32 text-2xl">Test page for webcache checking</h1>
+						<h1 className="pt-32 text-2xl">
+							Test page for webcache checking Nextjs 15
+						</h1>
 						<div className="grid grid-cols-2 gap-8 mt-12">
 							<div>
 								<ul>
