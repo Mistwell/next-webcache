@@ -26,6 +26,14 @@ const nextConfig = {
 			},
 		];
 	},
+	webpack: (config) => {
+		config.plugins.push(
+			new RetryChunkLoadPlugin({
+				maxRetries: 10,
+			})
+		);
+		return config;
+	},
 };
 
 export default nextConfig;
