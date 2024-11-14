@@ -1,4 +1,6 @@
-/** @type {import('next').NextConfig} */
+/** @type { RetryChunkLoadPlugin } */
+import { RetryChunkLoadPlugin } from "webpack-retry-chunk-load-plugin";
+
 const nextConfig = {
 	async headers() {
 		return [
